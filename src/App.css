@@ -1,5 +1,12 @@
+body, #root {
+  width: 100%;
+  height: 100vh;
+}
+
 .App {
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
 .App-logo {
