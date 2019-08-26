@@ -30,11 +30,23 @@ body, #root {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.overlay {
+  position: absolute;
+  top: calc(26% - 3px);
+  width: 35%;
+  height: 49%;
+  background-color: rgba(200, 200, 200, 0.5);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.top-gap {
+  margin-top: 3px;
+}
+
+span {
+  color: white;
 }
