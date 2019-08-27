@@ -5,7 +5,7 @@ import './styles.css'
 const VideoPlayer = ({ src, type, children }) => {
   return (
     <div className="video-container">
-      <video width="35%" height="49%" autoPlay>
+      <video width="35%" height="49%" controls autoPlay>
         <source
           src={src}
           type={type}
